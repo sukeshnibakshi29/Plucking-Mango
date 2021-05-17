@@ -13,9 +13,9 @@ var world,boy;
 
 function preload(){
 	boy=loadImage("images/boy.png");
-mango=loadImage("images/mango.png");
-stone=loadImage("images/stone.png");
-tree=loadImage("images/tree.png");
+	mango=loadImage("images/mango.png");
+	stone=loadImage("images/stone.png");
+	tree=loadImage("images/stone.png");
   }
 
 function setup() {
@@ -36,6 +36,7 @@ function setup() {
 	treeObj=new Tree(1050,580);
 	groundObject=new Ground(width/2,600,width,20);
 	elastic = new Elastic(stone.body,{x:235,y:420});
+	
 	
 	Engine.run(engine);
 

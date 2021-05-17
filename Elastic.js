@@ -1,4 +1,5 @@
-class Elastic{
+class Elastic
+{
     constructor(bodyA, pointB){
         var options = {
             bodyA: bodyA,
@@ -26,6 +27,5 @@ class Elastic{
         strokeWeight(4);
         line(pointA.x, pointA.y, pointB.x, pointB.y);
     }
-
 }
 }
